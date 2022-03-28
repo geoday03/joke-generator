@@ -39,13 +39,13 @@ export function Joker() {
           className={styles.button}
           onClick={() => dispatch(updateJoke("Programming"))}
         >
-          Programming Joke
+          Programming joke
         </button>
         <button
           className={styles.button}
           onClick={() => dispatch(updateJoke("Dark"))}
         >
-          Dark Joke
+          Dark joke
         </button>
       </div>
     </div>
